@@ -1,0 +1,8 @@
+<persistence-unit name="connection">
+    <class>connection.SingleConnection</class>
+    <properties>
+        <property>
+
+        </property>
+    </properties>
+</persistence-unit>

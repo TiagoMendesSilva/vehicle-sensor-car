@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/jsf/html ">
+<head>
+    <title>Projeto Vehicle Sensor Car</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+<div id="login-container">
+    <h1>Login</h1>
+    <form action="">
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf" autocomplete="off" value="${cpf}" />
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha" value="${password}"/>
+        <a href="#" id="forgot-password">Esqueceu a senha?</a>
+        <input type="submit" value="Login"/>
+    </form>
+
+    <div id="social-container">
+        <p>Ou entre pelas redes sociais.</p>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <div id="register-container">
+        <p>Ainda não tem uma conta?</p>
+        <a href="register.xhtml">Registre-se</a>
+    </div>
+</div>
+</body>
+
+</html>

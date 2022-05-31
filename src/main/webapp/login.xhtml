@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/jsf/html ">
+
+<h:head>
+    <h:title>Projeto Vehicle Sensor Car</h:title>
+    <h:link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <h:link rel="stylesheet" type="text/css" href="css/login.css"/>
+
+</h:head>
+<h:body>
+    <h:div id="login-container">
+    <h:h1>Login</h:h1>
+
+<!--    <h:form>-->
+<!--        <h:outputLabel>Nome: </h:outputLabel>-->
+<!--        <h:inputText readonly="true" value="#{}"/>-->
+        <h:form action="">
+            <h:outputLabel for="cpf">CPF</h:outputLabel>
+            <h:inputText name="cpf" id="cpf" placeholder="Digite seu cpf" autocomplete="off" value="#{loginManagedBean.cpf}" />
+            <h:outputLabel for="password">Senha</h:outputLabel>
+            <h:inputText type="password" id="password" name="password" placeholder="Digite sua senha" value="#{loginManagedBean.password}"/>
+            <h:a href="#" id="forgot-password">Esqueceu a senha?</h:a>
+            <h:inputSubmit type="submit" value="Login"/>
+        </h:form>
+
+        <h:div id="social-container">
+            <h:p>Ou entre pelas redes sociais.</h:p>
+            <h:i class="fa fa-facebook"></h:i>
+            <h:i class="fa fa-linkedin"></h:i>
+        </h:div>
+        <h:div id="register-container">
+            <h:p>Ainda não tem uma conta?</h:p>
+            <h:a href="register.xhtml">Registre-se</h:a>
+        </h:div>
+<!--    </h:form>-->
+    </h:div>
+
+
+
+</h:body>
+</html>

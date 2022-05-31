@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/jsf/html ">
+<head>
+    <meta charset="ISO-8859-15"/>
+    <title>Register User</title>
+    <link rel="stylesheet" type="text/css" href="css/registerUser.css"/>
+</head>
+<h:body>
+    <div id="register-user-container">
+    <h1>User</h1>
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="nome" name="nome" id="nome"  placeholder="Digite seu nome" autocomplete="off"/>
+            <label for="cpf">CPF</label>
+            <input type="cpf" name="cpf" id="cpf" placeholder="Digite seu cpf" autocomplete="off"/>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off"/>
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha"/>
+            <label for="passwordConfirmation">Confirme a senha</label>
+            <input type="password" id="passwordConfirmation" name="passwordConfirmation" placeholder="Confirme sua senha"/>
+            <input type="submit" value="Cadastrar"/>
+        </form>
+    </div>
+</h:body>
+</html>
